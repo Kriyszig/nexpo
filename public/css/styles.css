@@ -1,0 +1,352 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  padding: 5px;
+}
+
+a {
+  color: wheat;
+}
+
+.logo-img {
+  height: 80%;
+}
+
+.hero, .service-wrapper, .bus-select-wrapper, .loading-screen-wrapper, .final-saving-wrapper, .stats-wrapper, .savings-wrapper, .congo-to, .nf, .parking-wrapper, .parking-spot-wrapper {
+  height: calc(100vh - 74px);
+}
+
+.pshyc {
+  text-align: center;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.service, .bus-select, .park-select {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.service h4 {
+  margin:10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.bus-select, .park-select h5 {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.bus-select, .park-select h3 {
+  font-size: 25px;
+  padding: 5vw;
+  text-align: center;
+}
+
+.img-select {
+  height: 30%;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#ticket, #parking, #list, #stats {
+  height: 100px;
+}
+
+#usertype, .bus-selector, .park-selector, .choice-sel {
+  background-color:black;
+  border: 2px solid #DB202C;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#usertype, #d-ph, .bus-select-wrapper, .loading-screen-wrapper, .stats-wrapper, .routes-wrapper, .list-wrapper, .savings-wrapper, .final-saving-wrapper, .congo-to, .nf, .parking-wrapper, .parking-spot-wrapper {
+  display: none;
+}
+
+#d-ph {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.bus-submit {
+  height: 100px;
+  margin: 60px;
+}
+
+.btn-wrapper, .mile-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-btns {
+  margin:20px;
+  width: 60vw;
+  min-height: 100px;
+  max-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-btns {
+  height: 30px;
+  background-color: #DB202C;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.bus-load-wrapper, .savings-display-area {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bus-bounce {
+  width: 150px;
+  z-index:10;
+  animation: bounce 100ms infinite alternate;
+}
+
+.road {
+  width: 100px;
+  height: 2px;
+  background-color: white;
+  animation: roadani 1.5s ease-out infinite;
+}
+
+.bus-load-wrapper p {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.routes-wrapper {
+  height: calc(100vh - 74px);
+}
+
+.list-wrapper {
+  height: 100%;
+}
+
+.routes-table-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mile-img, .savings-img, .taxi-img {
+  width: 100px;
+  padding: 5px;
+}
+
+.savings-img {
+  padding: 20px;
+  animation: scalle 2s 1;
+}
+
+.savings-card, .saving-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  background-color: rgba(50, 50, 50, 0.5);
+  padding:10px;
+  color: white;
+}
+
+.saving-flx, .parking-spots-spot, .stats-flx {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.saving-stage {
+  width: 480px;
+}
+
+.stat-card {
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: 2px solid #DB202C;
+  border-radius: 5px;
+  width: 50vw;
+  text-align: center;
+}
+
+.holder {
+  padding: 20px;
+  background-color: #DB202C;
+  margin: 20px;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.smaller-btn {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.parking-pls {
+  width: 40vw;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  border: 1px solid #DB202C;
+  border-radius: 10px;
+}
+
+table {
+  padding: 5vw;
+  font-weight: bolder;
+  font-size: 13px;
+  color: white;
+}
+
+.list-area {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dn {
+  color: white;
+  background-color: #DB202C;
+  padding:10px;
+  border-radius: 5px;
+  margin: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 58px;
+  }
+  .hero, .service-wrapper, .bus-select-wrapper, .loading-screen-wrapper, .savings-wrapper, .final-saving-wrapper, .congo-to, .stats-wrapper, .nf, .parking-wrapper, .parking-spot-wrapper {
+    height: calc(100vh - 68px);
+  }
+
+  .service h4 {
+    font-size: 16px;
+  }
+
+  .img-select {
+    width: 100vw;
+  }
+
+  .bus-selector, .park-selector {
+    width: 80vw;
+  }
+
+  .progress-btns {
+    width: 360px;
+  }
+
+  .bus-load-wrapper p {
+    padding: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .routes-wrapper {
+    height: calc(100vh - 68px);
+  }
+
+  .saving-stage {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .stat-card {
+    width: 300px;
+  }
+}
+
+@keyframes popup {
+  0% {
+    transform: translateX(0)
+  }
+
+  100% {
+    transform: translateX(-100%)
+  }
+}
+
+@keyframes popdown {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes roadani{
+  0%{
+    transform: translateX(0);
+  }
+  75%{
+    opacity:1;
+  }
+  100%{
+    transform: translateX(-100%);
+    opacity:0;
+  }
+}
+
+@keyframes bounce{
+  0%{
+  transform:translateY(0)
+  }
+  100%{
+    transform:translateY(-1%)
+  }
+}
+
+@keyframes scalle {
+  0%{
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

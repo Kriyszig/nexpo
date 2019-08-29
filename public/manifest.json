@@ -1,0 +1,56 @@
+{
+    "name": "Nexpo",
+    "short_name": "Nexpo",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "/img/icons/logo-16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "src": "/img/icons/logo-24.png",
+        "type": "image/png",
+        "sizes": "24x24"
+      },
+      {
+        "src": "/img/icons/logo-32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/img/icons/logo-48.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "/img/icons/logo-64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/img/icons/logo-128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/img/icons/logo-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/img/icons/logo-256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      },
+      {
+        "src": "/img/icons/logo-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
