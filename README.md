@@ -9,3 +9,10 @@ This application was built using vanilla CSS, Js and HTML. This was built as a p
 If you find any ways to improve the application, doors are always open to helpful PR.
 
 You can see this application in action [here](https://nexpo-edf15.firebaseapp.com/)
+
+This project was a joint effort with following contributors:
+* [Arjun M](https://github.com/arjun120)
+* [Ashray Shetty](https://github.com/AshtrayShetty)
+* [Ruthwik H. M.](https://github.com/RuthwikHM)
+
+This application would not have been possible with their backend expertise and devops support.
