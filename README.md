@@ -2,7 +2,7 @@
 
 Nexpo is a Progressive Web Application built with Firebase and Heroku. This repository contains the front end code for the application.
 
-This application was built using vanilla CSS, Js and HTML. This was built as a part of NEC Hackathon.
+This application was built using vanilla CSS, JS and HTML. This was built as a part of NEC Hackathon.
 
 **WARNING** Looking at the code can cause trauma. Viewers are cautioned.
 
